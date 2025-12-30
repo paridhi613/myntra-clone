@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    background-color: white;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(245, 244, 244);
+}
+
+.logo {
+    margin-left: 2%;
+
+}
+
+.myntra_logo {
+    height: 45px;
+    background: transparent;
+    background-color: transparent;
+}
+
+.action_bar {
+    margin-right: 2%;
+}
+
+.nav_bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+
+}
+
+.nav_bar a {
+    font-size: small;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-bottom: 29px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.nav_bar a:hover {
+    border-bottom: 3px solid rgb(238, 89, 139);
+
+}
+
+.nav_bar a sup {
+    color: rgb(238, 89, 139);
+    font-size: 8px;
+}
+
+.search_bar {
+
+    display: flex;
+    min-width: 400px;
+    align-items: center;
+    height: 40px;
+    color: #696e79;
+    border: 1px solid #f5f5f6;
+    background: #f5f5f6;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.search_input {
+    color: #696e79;
+    background: #f5f5f6;
+    flex-grow: 1;
+    border: 1px solid #f5f5f6;
+    outline: 0;
+}
+
+.search_icon {
+    box-sizing: content-box;
+    height: 18px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    border: 1px solid #f5f5f6;
+    color: #696e79;
+}
+
+.action_bar {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-size: small;
+}
+
+.action_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner_image {
+    width: 100%;
+}
+
+.banner {
+    margin: 40px 0;
+}
+
+.category {
+    text-transform: uppercase;
+    color: #696e79;
+    letter-spacing: .15em;
+    font-size: 1.2em;
+    margin: 50px 0 30px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sale_item {
+    width: 250px;
+}
+
+.footer_container {
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    max-width: 1080px;
+    margin: auto;
+    min-width: 980px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column a{
+text-decoration: none;
+font-size: 12px;
+color: #696e79;
+padding-bottom: 2px;
+}
+
+
+h3 {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #4b505c;
+    padding-bottom: 10px;
+}
+
+.copyright{
+    color: #b5b5db;
+    padding: 15px;
+    text-align: center;
+
+}
